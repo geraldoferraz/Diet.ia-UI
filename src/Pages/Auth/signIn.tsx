@@ -59,8 +59,8 @@ export function SignIn() {
 
                 <div className="w-[350px] flex flex-col justify-center gap-6">
                     <div className="flex flex-col gap-2 text-center">
-                        <h1 className="text-2xl font-semibold tracking-tight">Acessar treinos</h1>
-                        <p className="text-sm text-muted-foreground">Monitore todos os seus treinos diários</p>
+                        <h1 className="text-2xl font-semibold tracking-tight">Acessar Monitoramentos</h1>
+                        <p className="text-sm text-muted-foreground">Monitore todas as suas alimentações e evoluções</p>
                     </div>
 
                     <form className="space-y-4" onSubmit={handleSubmit(handleSignIn)}>

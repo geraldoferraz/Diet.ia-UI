@@ -2,9 +2,9 @@ import { Home } from "lucide-react";
 import { NavLink } from "./Nav-link";
 import { ThemeToggle } from "./theme/theme-toggle";
 import { FaDumbbell } from "react-icons/fa";
-import { GiWeight } from "react-icons/gi";
 import { AccountMenu } from "./Account-menu";
 import { Separator } from "./ui/separator";
+import { IoStatsChart } from "react-icons/io5";
 
 
 export function Header(){
@@ -13,7 +13,7 @@ export function Header(){
             <div className="flex h-16 items-center gap-6 p-6 justify-between">
                 <div className="flex justify-center items-center gap-2 pr-3">
                     <FaDumbbell className="h-5 w-5" />
-                    <h2 className="text-lg font-bold">GymBud</h2>
+                    <h2 className="text-lg font-bold">Diet.IA</h2>
                 </div>
 
                 <Separator orientation="vertical" className="h-6 w-0.5 font-bold"/>
@@ -25,8 +25,8 @@ export function Header(){
                     </NavLink>
 
                     <NavLink to="/weight">
-                        <GiWeight className="h-4 w-4"/>
-                        Weight
+                        <IoStatsChart className="h-4 w-4"/>
+                        Nutrition
                     </NavLink>
                 </nav>
 

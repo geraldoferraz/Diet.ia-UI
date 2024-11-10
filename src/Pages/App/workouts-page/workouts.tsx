@@ -5,7 +5,7 @@ import { WorkoutProvider } from "@/contexts/WorkoutContext";
 
 export function Workouts(){
     return(
-        <WorkoutProvider> 
+        <WorkoutProvider>
             <WorkoutCardTitle/>
             <WorkoutsRegisters />
         </WorkoutProvider>

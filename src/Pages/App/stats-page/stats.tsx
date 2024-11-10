@@ -33,7 +33,7 @@ export function Stats() {
                     <div className="col-span-3">
                         <WeightChart />
                     </div>
-                    <div className="col-span-1">
+                    <div className="col-span-1 grid gap-3">
                         <Card>
                             <CardHeader>
                                 <CardTitle>Peso atual</CardTitle>
@@ -47,7 +47,7 @@ export function Stats() {
                             </CardFooter>
                         </Card>
 
-                        <Card className="mt-3.5">
+                        <Card>
                             <CardHeader>
                                 <CardTitle>Peso meta</CardTitle>
                             </CardHeader>
@@ -55,7 +55,7 @@ export function Stats() {
                                 <p>80 Kg</p>
                             </CardContent>
                             <CardFooter>
-                                <p>Data da definição: </p>
+                                <p className="mr-3">Data da definição:</p>
                                 <p>09 de julho de 2024</p>
                             </CardFooter>
                         </Card>

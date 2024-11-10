@@ -4,7 +4,7 @@ const envSchema = z.object({
     VITE_API_GYMBUD: z.string().url(),
     VITE_ENABLE_API_DELAY: z
         .string()
-        .transform((value) => value === 'true'), 
+        .transform((value) => value === 'true'),
 });
 
 export const env = envSchema.parse({

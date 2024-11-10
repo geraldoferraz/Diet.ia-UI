@@ -20,7 +20,7 @@ export function WeightCardTitle(){
             <Card className="mb-3">
                 <CardHeader>
                     <CardTitle className="flex justify-between items-center">
-                        Histórico de pesos
+                        Estatísticas dos alimentos
                         <Button className="flex justify-between items-center gap-3 text-base" onClick={handleStatsNavigation}>
                             Veja as estatísticas
                         </Button>
